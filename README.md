@@ -1,4 +1,4 @@
-# mean
+# MEAN Crud
 Aprendendo mean (MongoDB, Express, AngularJS, NodeJs
 
 # Preparar o Ambiente de Desenvolvimen to #
