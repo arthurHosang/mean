@@ -1,5 +1,6 @@
 /**
  * Created by arthur on 18/10/15.
+ * continuar de https://youtu.be/06_SIzYXgqQ?t=563
  */
 var express = require('express');
 var app = express();
@@ -27,6 +28,14 @@ app.get('/contactlist', function (reg, res) {
 app.post('/contactlist', function (req, res) {
     console.log(req.body);
     db.contactlist.insert(req.body, function(err, doc) {
+        res.json(doc);
+    });
+});
+
+app.delete('/contactlist/:id', function (req, res){
+   var id = req.params.id;
+    console.log(id);
+    db.contactlist.remove({_id: mongojs.ObjectId(id)}, function (err, doc) {
         res.json(doc);
     });
 });
