@@ -1,5 +1,8 @@
 # MEAN Crud
-Aprendendo mean (MongoDB, Express, AngularJS, NodeJs
+Aprendendo mean (MongoDB, Express, AngularJS, NodeJs através das video-aulas de:
+
+1. Learn Coding Tutorials, disponível em: https://www.youtube.com/watch?v=kHV7gOHvNdk
+
 
 # Iniciar os serviços para a Execução #
 Iniciar o mongo
