@@ -1,6 +1,5 @@
 /**
  * Created by arthur on 18/10/15.
- * continuar de https://youtu.be/06_SIzYXgqQ?t=563
  */
 var express = require('express');
 var app = express();

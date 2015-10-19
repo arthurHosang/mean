@@ -1,7 +1,14 @@
 # MEAN Crud
 Aprendendo mean (MongoDB, Express, AngularJS, NodeJs
 
-# Preparar o Ambiente de Desenvolvimen to #
+# Iniciar os serviços para a Execução #
+Iniciar o mongo
+` mongo `
+
+Vá para a pasta do projeto, no meu caso `cd /var/www/html/mean` e execute o comando abaixo
+` node service `
+
+# Preparar o Ambiente de Desenvolvimento #
 ## Instalações ##
 ### Install NodeJS ###
 ```
@@ -24,10 +31,3 @@ mongod
 
 ### Install Body-parser ###
 `npm install body-parser`
-
-
-# Iniciar os serviços para a Execução #
-```
-mongo
-node service
-```
